@@ -2,14 +2,18 @@ function Blizzard(container) {
     $(document).ready(function () {
         window.onload = function () {
             //canvas init
-            var canvas = document.getElementById(container);
+            var canvas = document.getElementById("webheader");
             var ctx = canvas.getContext("2d");
 
             //canvas dimensions
-            var W = window.innerWidth;
-            var H = window.innerHeight;
-            canvas.width = W;
-            canvas.height = H;
+            canvas.style.width = '100%';
+            canvas.style.height = '100%';
+            canvas.width = canvas.offsetWidth;
+            canvas.height = canvas.offsetHeight;
+            var W = canvas.offsetWidth;
+            var H = canvas.offsetHeight;
+            // canvas.width = W;
+            // canvas.height = H;
 
             //snowflake particles
             var mp = 25; //max particles
@@ -34,6 +38,13 @@ function Blizzard(container) {
                     ctx.moveTo(p.x, p.y);
                     ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2, true);
                 }
+                ctx.font = "5rem Helvetica";
+                ctx.fillStyle = "white";
+                ctx.lineWidth = 2;
+                ctx.strokeStyle = "black";
+                ctx.textAlign = "center";
+                ctx.fillText("mitgobla", canvas.width/2, canvas.height/2);
+                ctx.strokeText("mitgobla", canvas.width/2, canvas.height/2);
                 ctx.fill();
                 update();
             }
@@ -64,7 +75,7 @@ function Blizzard(container) {
                             //If the flake is exitting from the right
                             if (Math.sin(angle) > 0) {
                                 //Enter from the left
-                                particles[i] = { x: -5, y: Math.random() * H, r: p.r, d: p.d };
+                                particles[i] = { x: W, y: Math.random() * H, r: p.r, d: p.d };
                             }
                             else {
                                 //Enter from the right
