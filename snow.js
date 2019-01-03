@@ -29,6 +29,12 @@ function Blizzard(container) {
 
             //Lets draw the flakes
             function draw() {
+                canvas.style.width = '100%';
+                canvas.style.height = '100%';
+                canvas.width = canvas.offsetWidth;
+                canvas.height = canvas.offsetHeight;
+                var W = canvas.offsetWidth;
+                var H = canvas.offsetHeight;
                 ctx.clearRect(0, 0, W, H);
 
                 ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
@@ -43,8 +49,8 @@ function Blizzard(container) {
                 ctx.lineWidth = 2;
                 ctx.strokeStyle = "black";
                 ctx.textAlign = "center";
-                ctx.fillText("mitgobla", canvas.width/2, canvas.height/2);
-                ctx.strokeText("mitgobla", canvas.width/2, canvas.height/2);
+                ctx.fillText("mitgobla", canvas.width / 2, canvas.height / 2);
+                ctx.strokeText("mitgobla", canvas.width / 2, canvas.height / 2);
                 ctx.fill();
                 update();
             }
