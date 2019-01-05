@@ -39,6 +39,24 @@
     transform: translate(-50%, -50%)
 }
 
+.floatr {
+    float: right;
+}
+
+.clickherearrow {
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.rmfloat {
+    clear: right;
+}
+
+.mitglow {
+    box-shadow: 5px 5px 5px #fff;
+}
+
 img {
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -moz-animation: fadein 3s; /* Firefox */
