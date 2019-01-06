@@ -44,7 +44,7 @@ function Blizzard(container) {
                     ctx.moveTo(p.x, p.y);
                     ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2, true);
                 }
-                ctx.font = "5rem Helvetica";
+                ctx.font = "5rem Century Gothic";
                 ctx.fillStyle = "white";
                 ctx.lineWidth = 2;
                 ctx.strokeStyle = "black";
@@ -68,7 +68,7 @@ function Blizzard(container) {
                     //Every particle has its own density which can be used to make the downward movement different for each flake
                     //Lets make it more random by adding in the radius
                     p.y += Math.cos(angle + p.d) + fall_speed + p.r / 2;
-                    p.x += Math.sin(angle) * 2;
+                    p.x += Math.sin(angle) * 4;
 
                     //Sending flakes back from the top when it exits
                     //Lets make it a bit more organic and let flakes enter from the left and right also.
@@ -81,11 +81,11 @@ function Blizzard(container) {
                             //If the flake is exitting from the right
                             if (Math.sin(angle) > 0) {
                                 //Enter from the left
-                                particles[i] = { x: W, y: Math.random() * H, r: p.r, d: p.d };
+                                particles[i] = { x: W + 10, y: Math.random() * H, r: p.r, d: p.d };
                             }
                             else {
                                 //Enter from the right
-                                particles[i] = { x: W + 5, y: Math.random() * H, r: p.r, d: p.d };
+                                particles[i] = { x: W - 10, y: Math.random() * H, r: p.r, d: p.d };
                             }
                         }
                     }
