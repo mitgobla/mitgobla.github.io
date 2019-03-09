@@ -37,13 +37,13 @@ function Blizzard(container) {
                 var H = canvas.offsetHeight;
                 ctx.clearRect(0, 0, W, H);
 
-                ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
-                ctx.beginPath();
-                for (var i = 0; i < mp; i++) {
-                    var p = particles[i];
-                    ctx.moveTo(p.x, p.y);
-                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2, true);
-                }
+                // ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+                // ctx.beginPath();
+                // for (var i = 0; i < mp; i++) {
+                //     var p = particles[i];
+                //     ctx.moveTo(p.x, p.y);
+                //     ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2, true);
+                // }
                 ctx.font = "5rem Century Gothic";
                 ctx.fillStyle = "white";
                 ctx.lineWidth = 2;
@@ -52,7 +52,7 @@ function Blizzard(container) {
                 ctx.fillText("mitgobla", canvas.width / 2, canvas.height / 2);
                 ctx.strokeText("mitgobla", canvas.width / 2, canvas.height / 2);
                 ctx.fill();
-                update();
+                // update();
             }
 
             //Function to move the snowflakes
