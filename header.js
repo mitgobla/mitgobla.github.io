@@ -1,4 +1,4 @@
-function Blizzard(container) {
+function Header(container) {
     $(document).ready(function () {
         window.onload = function () {
             //canvas init
@@ -44,6 +44,16 @@ function Blizzard(container) {
                 //     ctx.moveTo(p.x, p.y);
                 //     ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2, true);
                 // }
+                ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
+                ctx.strokeStyle = "rgba(100, 100, 255, 0.5";
+                // // ctx.beginPath();
+                for (var i = 0; i < mp; i++) {
+                    var p = particles[i];
+                    ctx.moveTo(p.x, p.y);
+                    // ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2, true);
+                    ctx.lineTo(p.x + p.r + Math.cos(0.5), p.y + p.r + Math.sin(0.5))
+                    ctx.stroke();
+                }
                 ctx.font = "5rem Century Gothic";
                 ctx.fillStyle = "white";
                 ctx.lineWidth = 2;
@@ -52,22 +62,24 @@ function Blizzard(container) {
                 ctx.fillText("mitgobla", canvas.width / 2, canvas.height / 2);
                 ctx.strokeText("mitgobla", canvas.width / 2, canvas.height / 2);
                 ctx.fill();
-                // update();
+                update();
             }
 
             //Function to move the snowflakes
             //angle will be an ongoing incremental flag. Sin and Cos functions will be applied to it to create vertical and horizontal movements of the flakes
             var angle = 0;
-            var fall_speed = Math.floor(Math.random() * (6 - 1 + 1)) + 1;;
+            var fall_speed = Math.floor(Math.random() * (6 - 1 + 1)) + 4;;
             function update() {
-                angle += 0.01;
+                // angle += 0.01;
+                angle = 0.7
                 for (var i = 0; i < mp; i++) {
                     var p = particles[i];
                     //Updating X and Y coordinates
                     //We will add 1 to the cos function to prevent negative values which will lead flakes to move upwards
                     //Every particle has its own density which can be used to make the downward movement different for each flake
                     //Lets make it more random by adding in the radius
-                    p.y += Math.cos(angle + p.d) + fall_speed + p.r / 2;
+                    // p.y += Math.cos(angle + p.d) + fall_speed + p.r / 2;
+                    p.y += Math.cos(angle) + fall_speed + p.r / 2;
                     p.x += Math.sin(angle) * 4;
 
                     //Sending flakes back from the top when it exits
