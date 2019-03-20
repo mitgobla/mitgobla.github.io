@@ -45,7 +45,7 @@ function Header(container) {
                 //     ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2, true);
                 // }
                 ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
-                ctx.strokeStyle = "rgba(100, 100, 255, 0.5";
+                ctx.strokeStyle = "rgba(130, 130, 255, 0.5";
                 // // ctx.beginPath();
                 for (var i = 0; i < mp; i++) {
                     var p = particles[i];
@@ -80,7 +80,7 @@ function Header(container) {
                     //Lets make it more random by adding in the radius
                     // p.y += Math.cos(angle + p.d) + fall_speed + p.r / 2;
                     p.y += Math.cos(angle) + fall_speed + p.r / 2;
-                    p.x += Math.sin(angle) * 4;
+                    p.x += Math.sin(angle) * 8;
 
                     //Sending flakes back from the top when it exits
                     //Lets make it a bit more organic and let flakes enter from the left and right also.
