@@ -1,12 +1,12 @@
 .mitheadermountain {
     position: relative;
-    height: 24rem;
+    height: 285px;
     width: 100%;
-    background-color: lightskyblue;
-    background-image: url("images/mountains.png");
-    background-size: auto 80%;
+    background-color: white;
+    background-image: url("images/header.png");
+    background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: top center;
 }
 
 .mitheadertext {
