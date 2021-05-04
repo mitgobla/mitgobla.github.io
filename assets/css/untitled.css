@@ -1,0 +1,11 @@
+.portfolio-block.block-intro {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  filter: blur(0px) grayscale(0%) invert(0%);
+}
+
+.navbar.navbar-dark.navbar-expand-lg.fixed-top.bg-white.shadow-none.portfolio-navbar.gradient {
+}
+
