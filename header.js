@@ -59,8 +59,8 @@ function Header(container) {
                 ctx.lineWidth = 2;
                 ctx.strokeStyle = "black";
                 ctx.textAlign = "center";
-                ctx.fillText("mitgobla", canvas.width / 2, canvas.height / 2);
-                ctx.strokeText("mitgobla", canvas.width / 2, canvas.height / 2);
+                ctx.fillText("Ben Dodd", canvas.width / 2, canvas.height / 2);
+                ctx.strokeText("Ben Dodd", canvas.width / 2, canvas.height / 2);
                 ctx.fill();
                 update();
             }
