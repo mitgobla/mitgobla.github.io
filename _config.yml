@@ -1,0 +1,30 @@
+url: "https://ben-dodd.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: Ben Dodd # the name of your site, e.g. ACME Corp.
+tagline: My personal website
+author:
+  name: Ben Dodd
+  email: ben-dodd@outlook.com
+  github: mitgobla
+  url: "https://ben-dodd.com"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+nav:
+  - title: Home
+    url: /
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/card-placeholder.png
+
+collections:
+  projects:
+    output: true
+  tags:
+    output: true

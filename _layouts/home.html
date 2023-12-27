@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div>
+    <div class="container-fluid text-center border rounded p-4">
+        <h1>Welcome to my website.</h1>
+        <hr />
+        <div class="row">
+            <div class="col-3">
+                <img class="img-fluid rounded" src="{{ "/assets/images/profile.jpg" | relative_url }}" alt="Ben Dodd" style="max-height: 10rem">
+            </div>
+            <div class="col">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center border rounded p-4 mt-4">
+        <h2>Projects</h2>
+        <hr />
+        <div class="row">
+            {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+            {% for project in sorted_projects -%}
+                <div class="col-lg-4 pb-4">
+                    {% include project_card.html project=project -%}
+                </div>
+            {% endfor -%}
+        </div>
+    </div>
+</div>

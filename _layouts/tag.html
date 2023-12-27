@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>Projects with tag {{ page.tag }}</h1>
+
+<div class="row">
+    {% for project in site.projects %}
+    {% if project.tags contains page.tag %}
+    <div class="col-md-6">
+        {% include project_card.html project=project %}
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

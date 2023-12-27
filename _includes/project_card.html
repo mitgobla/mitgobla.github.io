@@ -1,0 +1,30 @@
+<div class="card h-100">
+    {% if include.project.image %}
+    <a href="{{ include.project.url }}" class="zoom-container">
+        <img class="card-img-top border-bottom zoom-on-hover" src="{{ include.project.image }}"
+            alt="{{ include.project.title }}">
+    </a>
+    {% endif %}
+    <div class="card-body">
+        <a href="{{ include.project.url }}">
+            <h5 class="card-title">{{ include.project.title }}</h5>
+        </a>
+        <p class="card-text">{{ include.project.description }}</p>
+    </div>
+    <div class="card-footer bg-white">
+        {% if include.project.tags | size > 0 %}
+        {% for tag in include.project.tags %}
+        {% assign tag_page = site.tags | where: "tag", tag | first %}
+        {% assign tag_color = tag_page.color | default: "bg-secondary" %}
+        {% if tag_page.icon %}
+        <a href="/tags/{{ tag }}.html" class="badge rounded-pill {{ tag_color }}"><i class="bi {{ tag_page.icon }} tag-icon"></i>{{ tag_page.title }}</a>
+        {% else %}
+        <a href="/tags/{{ tag }}.html" class="badge rounded-pill {{ tag_color }}">{{ tag_page.title }}</a>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </div>
+    <div class="card-footer">
+        <small class="text-muted">{{ include.project.date | date: "%B %-d, %Y" }}</small>
+    </div>
+</div>

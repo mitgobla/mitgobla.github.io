@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="card h-100">
+    {% if page.image and page.image != '/assets/images/card-placeholder.png' %}
+    <img class="card-img-top border-bottom project-image" src="{{ page.image }}" alt="{{ page.title }}">
+    {% endif %}
+    <div class="card-header text-center">
+        <h1>{{ page.title }}</h1>
+    </div>
+    <div class="card-body">
+        <p class="card-text text-muted">{{ page.date | date: "%B %-d, %Y" }}</p>
+        <h4 class="card-text">{{ page.description }}</h4>
+        {% assign tags_size = page.tags | size %}
+        {% if tags_size > 0 %}
+        <hr />
+        {% for tag in page.tags %}
+        {% assign tag_page = site.tags | where: "tag", tag | first %}
+        <a href="/tags/{{ tag }}.html" class="badge rounded-pill {{ tag_page.color }}">{{ tag }}</a>
+        {% endfor %}
+        {% endif %}
+    </div>
+    <hr />
+    <div class="card-body">
+        {{ content }}
+    </div>
+</div>

@@ -1,0 +1,41 @@
+---
+---
+
+@import "base";
+
+@font-face {
+    font-family: 'Decker';
+    src:url('/assets/font/Decker.ttf.woff') format('woff'),
+        url('/assets/font/Decker.ttf.svg#Decker') format('svg'),
+        url('/assets/font/Decker.ttf.eot'),
+        url('/assets/font/Decker.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Decker', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.zoom-container {
+    overflow: hidden;
+}
+
+.project-image {
+    max-height: 20rem;
+    width: auto;
+    object-fit: cover;
+}
+
+.zoom-on-hover {
+    transition: transform .2s
+}
+
+.zoom-on-hover:hover {
+    transform: scale(1.1);
+}
+
+.tag-icon {
+    font-size: 0.8rem;
+    padding-right: 0.25rem;
+}
