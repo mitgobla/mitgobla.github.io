@@ -1,0 +1,25 @@
+- company: Ziax
+  icon: "https://ziax.com/wp-content/uploads/2021/05/cropped-all-purple-favicon-512-32x32.png"
+  duration: August 2019 - Present
+  roles:
+    - title: Designer - Behaviour Engineer
+      duration: August 2019 - October 2019
+      description:
+        - Behaviour Engineer creating content for CubeCraft Game's marketplace on Minecraft Bedrock Edition.
+    - title: Manager - Design Team
+      duration: October 2019 - July 2020
+      description:
+        - Managing the marketplace team and creating content for CubeCraft Game's marketplace on Minecraft Bedrock Edition.
+    - title: Admin - Marketplace Coordinator
+      duration: July 2020 - Present
+      description:
+        - Managing the marketplace team and creating content for CubeCraft Game's marketplace on Minecraft Bedrock Edition.
+- company: Technocamps
+  icon: "https://www.technocamps.com/wp-content/uploads/2020/10/favicon-128-100x100.png"
+  duration: October 2019 - July 2023
+  roles:
+    - title: Student Ambassador
+      duration: October 2019 - July 2023
+      description:
+        - Promoting Technocamps and Computer Science to young people in Wales.
+        - "Case study: <a target=\"_blank\" href=\"https://www.technocamps.com/en/2020/09/11/ben-dodd/\">https://www.technocamps.com/en/2020/09/11/ben-dodd/</a>"

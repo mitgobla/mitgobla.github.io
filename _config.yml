@@ -14,8 +14,26 @@ plugins:
   - jemoji
 
 nav:
-  - title: Home
-    url: /
+  - title: "/mitgobla"
+    icon: github
+    url: "https://github.com/mitgobla/"
+  - title: "/mitgobla"
+    icon: linkedin
+    url: "https://uk.linkedin.com/in/mitgobla"
+  - title: "/mitgobla"
+    icon: instagram
+    url: "https://instagram.com/mitgobla"
+  - title: "ben-dodd@outlook.com"
+    icon: envelope-at
+    url: "mailto:ben-dodd@outlook.com"
+
+anchors:
+  - title: Experience
+    tag: experience
+  - title: Projects
+    tag: projects
+  - title: Contact
+    tag: contact
 
 defaults:
   - scope:

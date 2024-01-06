@@ -3,19 +3,64 @@ layout: default
 ---
 
 <div>
-    <div class="container-fluid text-center border rounded p-4">
+    <div class="container-blur container-fluid text-center border rounded p-4">
         <h1>Welcome to my website.</h1>
         <hr />
-        <div class="row">
-            <div class="col-3">
-                <img class="img-fluid rounded" src="{{ "/assets/images/profile.jpg" | relative_url }}" alt="Ben Dodd" style="max-height: 10rem">
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-3">
+                        <img class="img-fluid rounded" src="{{ "/assets/images/profile.jpg" | relative_url }}" alt="Ben Dodd" style="max-height: 10rem">
+                    </div>
+                    <div class="col">
+                        {{ content }}
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                {{ content }}
+            <div class="card-footer">
+                {% for anchor in site.anchors %}
+                <a href="#{{ anchor.tag }}"><span class="badge bg-primary">{{ anchor.title }}</span></a>
+                {% if forloop.last == false %} <span> | </span>{% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>
-    <div class="container-fluid text-center border rounded p-4 mt-4">
+    <div id="experience" class="container-blur container-fluid text-center border rounded p-4 mt-4">
+        <h2>Experience</h2>
+        <hr />
+        {% assign experience = site.data.experience %}
+        {% for exp in experience %}
+            <div class="card mb-3">
+                <div class="card-header">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0 fw-bold">
+                            <span>
+                                {% if exp.icon %}
+                                    <img class="bi" width="24" height="24" src="{{ exp.icon }}" alt="{{ exp.company}} Logo"></img>
+                                {% endif %}
+                                {{ exp.company }}
+                            </span>
+                        </h5>
+                        <p class="text-body-secondary mb-0">{{ exp.duration }}</p>
+                    </div>
+                </div>
+                <div class="card-body text-start">
+                     {% assign roles = exp.roles | reverse %}
+                     {% for rol in roles %}
+                     <h6 class="pt-2 {% if forloop.index == 1 %}text-primary fw-bolder {% else %} fw-medium {% endif %}">{{ rol.title }}</h6>
+                     <h6 class="text-body-secondary">{{ rol.duration }}</h6>
+                     <div class="vertical-bar mb-4">
+                        {% assign description = rol.description %}
+                        {% for desc in description %}
+                        <p class="card-text">{{ desc }}</p>
+                        {% endfor %}
+                    </div>
+                     {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <div id="projects" class="container-blur container-fluid text-center border rounded p-4 mt-4">
         <h2>Projects</h2>
         <hr />
         <div class="row">
@@ -25,6 +70,15 @@ layout: default
                     {% include project_card.html project=project -%}
                 </div>
             {% endfor -%}
+        </div>
+    </div>
+    <div id="contact" class="container-blur container-fluid text-center border rounded p-4 mt-4">
+        <h2>Contact</h2>
+        <hr />
+        <div class="row">
+            <div class="col">
+                <p class="text-body-secondary">If you would like to get in touch, please send me an email at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+            </div>
         </div>
     </div>
 </div>
