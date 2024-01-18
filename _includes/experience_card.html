@@ -1,0 +1,28 @@
+<div class="card mb-3">
+    <div class="card-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <h5 class="mb-0 fw-bold">
+                <span>
+                    {% if include.exp.icon %}
+                        <img class="bi" width="24" height="24" src="{{ include.exp.icon }}" alt="{{ include.exp.company}} Logo"></img>
+                    {% endif %}
+                    {{ include.exp.company }}
+                </span>
+            </h5>
+            <p class="text-body-secondary mb-0">{{ include.exp.duration }}</p>
+        </div>
+    </div>
+    <div class="card-body text-start">
+         {% assign roles = include.exp.roles | reverse %}
+         {% for rol in roles %}
+         <h6 class="pt-2 {% if forloop.index == 1 %}text-primary fw-bolder {% else %} fw-medium {% endif %}">{{ rol.title }}</h6>
+         <h6 class="text-body-secondary">{{ rol.duration }}</h6>
+         <div class="vertical-bar mb-4">
+            {% assign description = rol.description %}
+            {% for desc in description %}
+            <p class="card-text">{{ desc }}</p>
+            {% endfor %}
+        </div>
+         {% endfor %}
+    </div>
+</div>
