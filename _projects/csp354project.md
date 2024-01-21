@@ -8,11 +8,3 @@ tags: [python]
 ---
 
 This is a test project content to test the project layout.
-
-# Hello
-
-This is my **university** project
-
-## Hello
-
-This is my **university** project

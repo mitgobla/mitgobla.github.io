@@ -23,15 +23,19 @@ This project was created for the CSC384 Video Games Programming module at Swanse
 
 ![Achievements](/assets/images/projects/csc384project/achievements.jpg)
 
-The achievements system uses a JSON file to store the different achievements. The achievements are loaded into the game and displayed in the achievements menu. The achievements are unlocked by completing certain tasks in the game, such as completing a level or not dying in a level.
+The achievements system uses a JSON file to store the different achievements. The achievements are loaded into the game and displayed in the achievements menu. They are unlocked by completing certain tasks in the game, such as completing a level or not dying in a level.
 
 ## Leaderboards
 
 ![Leaderboards](/assets/images/projects/csc384project/leaderboards.jpg)
 
+Players can compete against each other to get on the leaderboard. The leaderboard is for local players only.
+
 ## Profile System
 
 ![Profile](/assets/images/projects/csc384project/profiles.jpg)
+
+Players can set their name, and choose a colour for their virus character.
 
 ## Service Locator Pattern
 

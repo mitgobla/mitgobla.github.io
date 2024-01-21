@@ -68,9 +68,13 @@ body {
 }
 
 .card-body img {
+    cursor: pointer;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid var(--bs-secondary);
     margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-height: 20rem;
 }
