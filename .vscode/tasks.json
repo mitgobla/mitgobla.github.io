@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Jekyll",
+            "detail": "Build Jekyll site with incremental regeneration",
+            "icon": {
+                "color": "terminal.ansiGreen",
+                "id": "globe"
+            },
+            "command": "bundle exec jekyll serve --drafts --future --unpublished",
+            "type": "shell",
+            "args": [],
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "build"
+        }
+    ]
+}

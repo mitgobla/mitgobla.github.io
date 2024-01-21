@@ -50,7 +50,12 @@ layout: default
         <hr />
         <div class="row">
             <div class="col">
-                <p class="text-body-secondary">If you would like to get in touch, please send me an email at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="text-body-secondary">If you would like to get in touch, please send me an email at</p>
+                        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

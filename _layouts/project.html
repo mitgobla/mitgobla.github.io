@@ -10,19 +10,33 @@ layout: default
         <h1>{{ page.title }}</h1>
     </div>
     <div class="card-body">
-        <p class="card-text text-muted">{{ page.date | date: "%B %-d, %Y" }}</p>
+        <span class="card-text text-muted">{{ page.date | date: "%B %-d, %Y" }}</span>
         <h4 class="card-text">{{ page.description }}</h4>
-        {% assign tags_size = page.tags | size %}
+        <!-- {% assign tags_size = page.tags | size %}
         {% if tags_size > 0 %}
         <hr />
         {% for tag in page.tags %}
         {% assign tag_page = site.tags | where: "tag", tag | first %}
         <a href="/tags/{{ tag }}.html" class="badge rounded-pill {{ tag_page.color }}">{{ tag }}</a>
         {% endfor %}
-        {% endif %}
+        {% endif %} -->
     </div>
     <hr />
     <div class="card-body">
         {{ content }}
+    </div>
+    <div class="card-footer">
+        {% assign tags_size = page.tags | size %}
+        {% if tags_size > 0 %}
+        {% for tag in page.tags %}
+        {% assign tag_page = site.tags | where: "tag", tag | first %}
+        {% assign tag_color = tag_page.color | default: "bg-secondary" %}
+        {% if tag_page.icon %}
+        <a href="/tags/{{ tag }}.html" class="badge rounded-pill {{ tag_color }}"><i class="bi {{ tag_page.icon }} tag-icon"></i>{{ tag_page.title }}</a>
+        {% else %}
+        <a href="/tags/{{ tag }}.html" class="badge rounded-pill {{ tag_color }}">{{ tag_page.title }}</a>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
     </div>
 </div>
