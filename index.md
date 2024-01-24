@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+description: I am a software engineer with a passion for all things tech.
 ---
 
 **Hello there!** My name is Ben; a computer science graduate from Swansea, Wales.
