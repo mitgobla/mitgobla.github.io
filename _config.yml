@@ -30,6 +30,8 @@ nav:
 anchors:
   - title: Experience
     tag: experience
+  - title: Education
+    tag: education
   - title: Projects
     tag: projects
   - title: Contact

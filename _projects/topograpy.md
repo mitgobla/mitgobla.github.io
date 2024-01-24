@@ -3,8 +3,14 @@ layout: project
 title: TopograPy
 description: A Topograph Coordinate Visualizer written in Python.
 image: /assets/images/projects/topograpy.png
-date: 2020-01-01
-tags: [testtag]
+date: 2018-01-31
+tags: [python]
+youtube: _1nt6SkSSqg
+links:
+    - title: Repository
+      icon: bi-github
+      url: https://github.com/mitgobla/TopograPy
 ---
+## Overview
 
-This is a test project content to test the project layout.
+I experimented with reading heightmap images and converting them into 3D models. I used the Python library `PIL` to read the image and `PyOpenGL` to render the 3D model.

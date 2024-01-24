@@ -11,8 +11,9 @@
         </a>
         <p class="card-text">{{ include.project.description }}</p>
     </div>
+    {% assign tags_size = include.project.tags | size %}
+    {% if tags_size > 0 %}
     <div class="card-footer bg-white">
-        {% if include.project.tags | size > 0 %}
         {% for tag in include.project.tags %}
         {% assign tag_page = site.tags | where: "tag", tag | first %}
         {% assign tag_color = tag_page.color | default: "bg-secondary" %}
@@ -22,8 +23,8 @@
         <a href="/tags/{{ tag }}.html" class="badge rounded-pill {{ tag_color }}">{{ tag_page.title }}</a>
         {% endif %}
         {% endfor %}
-        {% endif %}
     </div>
+    {% endif %}
     <div class="card-footer">
         <small class="text-muted">{{ include.project.date | date: "%B %-d, %Y" }}</small>
     </div>

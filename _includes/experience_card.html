@@ -4,7 +4,7 @@
             <h5 class="mb-0 fw-bold">
                 <span>
                     {% if include.exp.icon %}
-                        <img class="bi" width="24" height="24" src="{{ include.exp.icon }}" alt="{{ include.exp.company}} Logo"></img>
+                        <img class="bi rounded" width="24" height="24" src="{{ include.exp.icon }}" alt="{{ include.exp.company}} Logo"></img>
                     {% endif %}
                     {{ include.exp.company }}
                 </span>
@@ -18,10 +18,12 @@
          <h6 class="pt-2 {% if forloop.index == 1 %}text-primary fw-bolder {% else %} fw-medium {% endif %}">{{ rol.title }}</h6>
          <h6 class="text-body-secondary">{{ rol.duration }}</h6>
          <div class="vertical-bar mb-4">
-            {% assign description = rol.description %}
-            {% for desc in description %}
-            <p class="card-text">{{ desc }}</p>
-            {% endfor %}
+            <ul>
+                {% assign description = rol.description %}
+                {% for desc in description %}
+                <li class="card-text">{{ desc }}</li>
+                {% endfor %}
+            </ul>
         </div>
          {% endfor %}
     </div>

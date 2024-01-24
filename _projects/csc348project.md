@@ -3,8 +3,13 @@ layout: project
 title: Forum Web Application
 description: Using Laravel to build a forum web application with MVC structure, Eloquent ORM, Blade templating engine, and more.
 image: /assets/images/projects/csc348project.png
-date: 2023-03-05
-tags: [laravel, php]
+date: 2023-05-15
+tags: [web, laravel, php, javascript]
+youtube: A_I4aISbT0o
+links:
+    - title: Repository
+      icon: bi-github
+      url: https://github.com/mitgobla/forums-app
 ---
 
 ![Home Screen](/assets/images/projects/csc348project/home.png)

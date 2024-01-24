@@ -5,6 +5,11 @@ description: Creating a Frogger-style video game in Unity with C#.
 image: /assets/images/projects/csc384project.png
 date: 2023-05-12
 tags: [unity, c-sharp]
+youtube: MPpUj9tI8fU
+links:
+    - title: Repository
+      icon: bi-github
+      url: https://github.com/mitgobla/VideoGameCoursework
 ---
 ![Gameplay GIF](/assets/images/projects/csc384project/gameplay.gif)
 

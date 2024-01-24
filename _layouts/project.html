@@ -1,33 +1,50 @@
 ---
 layout: default
 ---
-
+<div class="d-flex justify-content-between">
+    <!-- home button -->
+    <a href="/" class="text-secondary"><i class="bi bi-arrow-left"></i></a>
+    <!-- share button -->
+    <a href="#" id="shareButton" class="text-secondary" data-title="{{ page.title }}" data-description="{{ page.description }}"><i class="bi bi-share"></i></a>
+</div>
 <div class="card h-100">
-    {% if page.image and page.image != '/assets/images/card-placeholder.png' %}
-    <img class="card-img-top border-bottom project-image" src="{{ page.image }}" alt="{{ page.title }}">
+    {% if page.youtube %}
+        {% include youtube_player.html id=page.youtube %}
+    {% elsif page.image and page.image != '/assets/images/card-placeholder.png' %}
+        {% if page.project_image_top %}
+        <img class="card-img-top border-bottom project-image-top" src="{{ page.image }}" alt="{{ page.title }}">
+        {% else %}
+        <img class="card-img-top border-bottom project-image" src="{{ page.image }}" alt="{{ page.title }}">
+        {% endif %}
     {% endif %}
     <div class="card-header text-center">
         <h1>{{ page.title }}</h1>
     </div>
-    <div class="card-body">
+    <div class="card-body pb-0">
         <span class="card-text text-muted">{{ page.date | date: "%B %-d, %Y" }}</span>
-        <h4 class="card-text">{{ page.description }}</h4>
-        <!-- {% assign tags_size = page.tags | size %}
-        {% if tags_size > 0 %}
-        <hr />
-        {% for tag in page.tags %}
-        {% assign tag_page = site.tags | where: "tag", tag | first %}
-        <a href="/tags/{{ tag }}.html" class="badge rounded-pill {{ tag_page.color }}">{{ tag }}</a>
-        {% endfor %}
-        {% endif %} -->
+        <p class="card-text fs-5">{{ page.description }}</p>
     </div>
+    {% assign links_size = page.links | size %}
+    {% if links_size > 0 %}
     <hr />
-    <div class="card-body">
+    <div class="card-body pb-0 pt-0">
+        {% for link in page.links %}
+        <a href="{{ link.url }}" class="btn btn-outline-secondary" target="_blank">
+            {% if link.icon %}
+            <i class="bi {{ link.icon }}"></i>
+            {% endif %}
+            {{ link.title }}
+        </a>
+        {% endfor %}
+    </div>
+    {% endif %}
+    <hr />
+    <div class="card-body pt-1">
         {{ content }}
     </div>
+    {% assign tags_size = page.tags | size %}
+    {% if tags_size > 0 %}
     <div class="card-footer">
-        {% assign tags_size = page.tags | size %}
-        {% if tags_size > 0 %}
         {% for tag in page.tags %}
         {% assign tag_page = site.tags | where: "tag", tag | first %}
         {% assign tag_color = tag_page.color | default: "bg-secondary" %}
@@ -38,7 +55,8 @@ layout: default
         <a href="/tags/{{ tag }}.html" class="badge rounded-pill {{ tag_color }}">{{ tag_page.title }}</a>
         {% endif %}
         {% endfor %}
-        {% endif %}
     </div>
+    {% endif %}
 </div>
 <script src="{{ '/assets/js/modal.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/share.js' | relative_url }}"></script>

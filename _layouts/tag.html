@@ -2,14 +2,17 @@
 layout: default
 ---
 
-<h1>Projects with tag {{ page.tag }}</h1>
-
-<div class="row">
-    {% for project in site.projects %}
-    {% if project.tags contains page.tag %}
-    <div class="col-md-6">
-        {% include project_card.html project=project %}
+<div id="experience" class="container-blur container-fluid text-center border rounded p-4 mt-4">
+    <h1>Projects with tag {{ page.title }}</h1>
+    <hr />
+    <div class="row">
+        {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+        {% for project in sorted_projects %}
+        {% if project.tags contains page.tag %}
+        <div class="col-md-6 pb-4">
+            {% include project_card.html project=project %}
+        </div>
+        {% endif %}
+        {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
 </div>

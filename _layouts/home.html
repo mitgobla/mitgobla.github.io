@@ -33,6 +33,14 @@ layout: default
             {% include experience_card.html exp=exp %}
         {% endfor %}
     </div>
+    <div id="education" class="container-blur container-fluid text-center border rounded p-4 mt-4">
+        <h2>Education</h2>
+        <hr />
+        {% assign education = site.data.education %}
+        {% for edu in education %}
+            {% include education_card.html edu=edu %}
+        {% endfor %}
+    </div>
     <div id="projects" class="container-blur container-fluid text-center border rounded p-4 mt-4">
         <h2>Projects</h2>
         <hr />
@@ -52,8 +60,14 @@ layout: default
             <div class="col">
                 <div class="card mb-3">
                     <div class="card-body">
-                        <p class="text-body-secondary">If you would like to get in touch, please send me an email at</p>
-                        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+                        <p class="text-body-secondary">You can get in touch with me through any of the links below:</p>
+                        <ul class="list-group list-group-flush">
+                        {% for link in site.nav %}
+                        <li class="list-group-item">
+                            <a class="text-primary" target="_blank" href="{{ link.url }}"><i class="bi bi-{{ link.icon }}"></i> {{ link.title }}</a>
+                        </li>
+                        {% endfor %}
+                        </ul>
                     </div>
                 </div>
             </div>

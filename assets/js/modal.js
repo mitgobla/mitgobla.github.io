@@ -16,8 +16,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body d-flex justify-content-center align-items-center">
-                        <img src="${img.src}" class="img-fluid" alt="${img.alt}">
-                    </div>
+                        <img src="${img.src}" class="img-fluid">
+                        </div>
+                    <div class="text-center mt-3">${img.alt}</div>
                 </div>
             </div>
         `;
