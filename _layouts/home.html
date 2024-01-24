@@ -19,7 +19,7 @@ layout: default
             </div>
             <div class="card-footer">
                 {% for anchor in site.anchors %}
-                <a href="#{{ anchor.tag }}"><span class="badge bg-primary">{{ anchor.title }}</span></a>
+                <a href="#{{ anchor.tag }}"><span class="badge bg-primary fs-6">{{ anchor.title }}</span></a>
                 {% if forloop.last == false %} <span> | </span>{% endif %}
                 {% endfor %}
             </div>
