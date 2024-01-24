@@ -5,7 +5,7 @@ description: Applying the knowledge of embedded systems to program an EV3 robot 
 image: /assets/images/projects/csc368project.png
 date: 2022-12-19
 tags: [ev3, python]
-youtube: KCaG5id5O8g
+youtube: LhQvDYqtsys
 ---
 ## Overview
 
