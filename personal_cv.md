@@ -15,11 +15,11 @@ Outside of programming I enjoy playing video games, building computers, and gard
 ## Core Skills
 
 * Python, Java
-* JavaScript, PHP, Laravel
+* JavaScript, PHP, Laravel, Linux, Docker
 * C#, Kotlin, Spark Ada, SQL
 * Raspberry Pi, Lego Mindstorms robots
 * Git, GitHub, Notion, Jira
-* Teamwork, Communication
+* Teamwork, Communication, Release Management
 * Time Management, Problem Solving
 
 ## Experience

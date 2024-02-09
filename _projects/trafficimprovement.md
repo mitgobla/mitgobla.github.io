@@ -23,6 +23,6 @@ This project won the PA Consulting Raspberry Pi Competition in 2019. Numerous ar
 - [PA Consulting PAPiAwards19 Video](https://youtu.be/yoUBW6hDl_M)
 - [Tivy-Side Advertiser](https://www.tivysideadvertiser.co.uk/news/17643925.newcastle-emlyn-school-pupils-win-top-award/)
 - [E&T Article](https://eandt.theiet.org/content/articles/2019/05/raspberry-pi-innovations-unveiled-by-british-youngsters/)
-- [newelectronics Article](https://www.newelectronics.co.uk/electronics-news/pa-consulting-national-school-raspberry-pi-competition-winners-announced/214812/)
+- [newelectronics Article](https://www.newelectronics.co.uk/content/news/pa-consulting-national-school-raspberry-pi-competition-winners-announced)
 - [ElectronicsWeekly Article](https://www.electronicsweekly.com/news/products/raspberry-pi-development/pas-raspberry-pi-schools-competition-tackles-transport-2019-05/)
 - [Ysgol Gyfun Emlyn Article](https://ysgolgyfunemlyn.org.uk/news/team-lightning-strike-again/)

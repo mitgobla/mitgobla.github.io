@@ -56,7 +56,7 @@ X Key: Delete brick at placer position
 
 I just want to say thank you to some people who have made this possible:
 
-**Edward Upton** ([engiego](http://github.com/engiego)) for the collaboration, testing, and ideas for the software.
+**Edward Upton** ([engiego](https://github.com/Edward-Upton/)) for the collaboration, testing, and ideas for the software.
 
 **Thomas Woodthorpe** ([https://lonewolfdesign.co.uk](https://lonewolfdesign.co.uk)) for testing the code from the start till the end, and creating models during the competiton.
 
