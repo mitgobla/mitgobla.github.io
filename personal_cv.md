@@ -16,8 +16,8 @@ Outside of programming I enjoy playing video games, building computers, and gard
 
 * Python, Java
 * JavaScript, PHP, Laravel, Linux, Docker
-* C#, Kotlin, Spark Ada, SQL
-* Raspberry Pi, Lego Mindstorms robots
+* C#, Kotlin, Spark Ada, SQL, C++
+* Raspberry Pi, Lego Mindstorms, Mbed OS
 * Git, GitHub, Notion, Jira
 * Teamwork, Communication, Release Management
 * Time Management, Problem Solving
@@ -49,17 +49,18 @@ Outside of programming I enjoy playing video games, building computers, and gard
 
 ### University Projects
 
-* [Interactive Socially Assistive Robot](https://github.com/mitgobla/CSP354-Project) Dissertation Project - Python, OpenCV, Raspberry Pi, Emotion Recognition, Gesture Recognition, Unit Testing
-* [Community Forums](https://github.com/mitgobla/forums-app) Web Application - HTML, CSS, PHP, JavaScript, Laravel, MySQL, Git
-* [Frogger-style Video Game](https://github.com/mitgobla/VideoGameCoursework) -  Unity, C#
-* [News Aggregator](https://github.com/mitgobla/NewsAggregator) Mobile Application - Android Studio, Kotlin, Firebase Database, Firebase Authentication, API Integration
+* [Interactive Socially Assistive Robot](https://github.com/mitgobla/CSP354-Project) Dissertation Project designing and programming a viable product - Python, OpenCV, Raspberry Pi, Emotion Recognition, Gesture Recognition, Unit Testing
+* [Community Forums](https://github.com/mitgobla/forums-app) Fundamentals in Web Application development - HTML, CSS, PHP, JavaScript, Laravel, MySQL, Git
+* [Frogger-style Video Game](https://github.com/mitgobla/VideoGameCoursework) - Using core OOP principles. Unity, C#
+* [News Aggregator](https://github.com/mitgobla/NewsAggregator) Mobile Application for reading news - Android Studio, Kotlin, Firebase Database, Firebase Authentication, API Integration
 * [Wind Turbine Safety High Integrity System](https://github.com/mitgobla/WindTurbine-CriticalSystem) - Spark Ada
 
 ### Technical Projects
 
-* [Traffic Light System](https://github.com/mitgobla/Traffic-Improvement) - Winning project of PA Consulting's Competition. Python, Raspberry Pi, Flask, Simulation
-* [Pi-Weather](https://github.com/mitgobla/Pi-Weather) - Weather forecast on E-Ink display. Python, Raspberry Pi, Weather API
-* [Flash Builder](https://github.com/mitgobla/Flash-Builder) - Custom software for Technocamps robot. Python, PyQt5, LEGO Mindstorms EV3
+* [C++ Microcontroller Projects](https://ben-dodd.com/projects/cppfrdmk64f.html) - Using a FRDM-K64F microcontroller and various sensors. C++, Mbed OS.
+* [Traffic Light System](https://ben-dodd.com/projects/trafficimprovement.html) - Winning project of PA Consulting's Competition. Improving traffic signal timings to reduce waiting. Python, Raspberry Pi, Flask, Simulation
+* [Pi-Weather](https://github.com/mitgobla/Pi-Weather) - Weather forecast on E-Ink display. Using an API to retrieve data. Python, Raspberry Pi
+* [Flash Builder](https://github.com/mitgobla/Flash-Builder) - Custom software for Technocamps robot. Developing UI and backend. Python, PyQt5, LEGO Mindstorms EV3
 
 ## Achievements
 
