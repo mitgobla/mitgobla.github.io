@@ -5,6 +5,7 @@ description: Writing C++ code with Mbed OS for various projects using the FRDM-K
 image: /assets/images/projects/cppfrdmk64f.png
 date: 2024-02-12
 tags: [cplusplus]
+youtube: g5ApOig-ik0
 links:
     - title: Repository
       icon: bi-github
@@ -19,6 +20,15 @@ I've written up some of the projects I've been working on below. They are availa
 ## Projects
 
 I have a kit full of sensors that I purchased a while ago for my Raspberry Pi, so I challenged myself to use the sensors with the FRDM-K64F board.
+
+- [Overview](#overview)
+- [Projects](#projects)
+  - [Basic flashing LED](#basic-flashing-led)
+  - [RGB LED](#rgb-led)
+  - [Ultrasonic sensor](#ultrasonic-sensor)
+  - [Temperature and humidity sensor](#temperature-and-humidity-sensor)
+  - [Touchscreen drawing](#touchscreen-drawing)
+  - [Joystick controlled drawing](#joystick-controlled-drawing)
 
 ### Basic flashing LED
 
