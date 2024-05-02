@@ -24,7 +24,7 @@ Outside of programming I enjoy playing video games, building computers, and gard
 
 ## Experience
 
-### Marketplace Coordinator - Ziax & CubeCraft Games (2019 - Present)
+### Marketplace Coordinator - Ziax & CubeCraft Games (2019 - 2024)
 
 * Developed Minecraft Marketplace content and internal tooling with JavaScript, JSON, Python.
 * Managed projects with Notion and mentored new team members.
@@ -49,18 +49,18 @@ Outside of programming I enjoy playing video games, building computers, and gard
 
 ### University Projects
 
-* [Interactive Socially Assistive Robot](https://github.com/mitgobla/CSP354-Project) Dissertation Project designing and programming a viable product - Python, OpenCV, Raspberry Pi, Emotion Recognition, Gesture Recognition, Unit Testing
-* [Community Forums](https://github.com/mitgobla/forums-app) Fundamentals in Web Application development - HTML, CSS, PHP, JavaScript, Laravel, MySQL, Git
-* [Frogger-style Video Game](https://github.com/mitgobla/VideoGameCoursework) - Using core OOP principles. Unity, C#
-* [News Aggregator](https://github.com/mitgobla/NewsAggregator) Mobile Application for reading news - Android Studio, Kotlin, Firebase Database, Firebase Authentication, API Integration
-* [Wind Turbine Safety High Integrity System](https://github.com/mitgobla/WindTurbine-CriticalSystem) - Spark Ada
+* [Interactive Socially Assistive Robot](https://ben-dodd.com/projects/csp354project.html) Dissertation Project designing and programming a viable product - Python, OpenCV, Raspberry Pi, Emotion Recognition, Gesture Recognition, Unit Testing
+* [Forums Web Application](https://ben-dodd.com/projects/csc348project.html) Fundamentals in Web Application development - HTML, CSS, PHP, JavaScript, Laravel, MySQL, Git
+* [Frogger-style Video Game](https://ben-dodd.com/projects/csc384project.html) - Using core OOP principles. Unity, C#
+* [News Aggregator](https://ben-dodd.com/projects/csc306project.html) Mobile Application for reading news - Android Studio, Kotlin, Firebase Database, Firebase Authentication, API Integration
+* [Wind Turbine Safety High Integrity System](https://ben-dodd.com/projects/csc313project.html) - Spark Ada
 
 ### Technical Projects
 
 * [C++ Microcontroller Projects](https://ben-dodd.com/projects/cppfrdmk64f.html) - Using a FRDM-K64F microcontroller and various sensors. C++, Mbed OS.
 * [Traffic Light System](https://ben-dodd.com/projects/trafficimprovement.html) - Winning project of PA Consulting's Competition. Improving traffic signal timings to reduce waiting. Python, Raspberry Pi, Flask, Simulation
-* [Pi-Weather](https://github.com/mitgobla/Pi-Weather) - Weather forecast on E-Ink display. Using an API to retrieve data. Python, Raspberry Pi
-* [Flash Builder](https://github.com/mitgobla/Flash-Builder) - Custom software for Technocamps robot. Developing UI and backend. Python, PyQt5, LEGO Mindstorms EV3
+* [Pi-Weather](https://ben-dodd.com/projects/piweather.html) - Weather forecast on E-Ink display. Using an API to retrieve data. Python, Raspberry Pi
+* [Flash Builder](https://ben-dodd.com/projects/flashbuilder.html) - Custom software for Technocamps robot. Developing UI and backend. Python, PyQt5, LEGO Mindstorms EV3
 
 ## Achievements
 
