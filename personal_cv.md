@@ -4,63 +4,62 @@ Email: [ben-dodd@outlook.com](mailto:ben-dodd@outlook.com)   |   Phone: [+44 782
 
 ## Professional Profile
 
-I am a dedicated and passionate Computer Science graduate with a First Class Honours from Swansea University. I have proven experience in various programming languages including Python, Java, JavaScript, PHP, C#, Kotlin, and SQL. Skilled in using Rasberry Pi and LEGO Mindstorm hardware for innovative projects. Furthermore I am proficient in using Git, Github, Notion, and Jira for project management and version control.
+I am a dedicated and passionate Computer Science graduate with a First Class Honours from Swansea University.
 
-My previous experience as a Marketplace Coordinator at Ziax and CubeCraft Games has allowed me to demonstrate my ability to work in a team and mentor new members.
+My experience as a [Marketplace Coordinator](#marketplace-coordinator---ziax--cubecraft-games-2019---2024) at Ziax and CubeCraft Games has allowed me to develop a strong ability to work in a team, mentor new members, and manage projects effectively. I have demonstrated technical proficiency, particularly in Python, where I created effectual internal tools and automated processes to enhance team efficiency.
 
-The projects I have worked on show that I am committed to continous learning and problem solving where I can learn new skills and technologies to further my career.
+I have a proven track record of working on a wide range of projects. My website showcases my diverse portfolio of projects which demonstrates my commitment to continuous learning and problem-solving. For detailed examples of my work, please refer to the [Projects](#projects) section below or visit my website at [ben-dodd.com](https://ben-dodd.com).
 
-Outside of programming I enjoy playing video games, building computers, and gardening. I have a hobby for mixology and creating cocktail recipes.
+My volunteer work with Technocamps as a [Senior Ambassador](#volunteer-student-ambassador---technocamps-2019---2023) has enabled me to inspire and mentor young students, sharing my journey from a school robotics club to a career in Computer Science.
 
 ## Core Skills
 
-* Python, Java
-* JavaScript, PHP, Laravel, Linux, Docker
-* C#, Kotlin, Spark Ada, SQL, C++
-* Raspberry Pi, Lego Mindstorms, Mbed OS
-* Git, GitHub, Notion, Jira
-* Teamwork, Communication, Release Management
-* Time Management, Problem Solving
+* **Programming Languages**: Python, Java, JavaScript, PHP, C#, Kotlin, SQL, C++, Spark Ada
+* **Frameworks and Tools**: Laravel, Docker, Git, GitHub, Notion, Jira
+* **Hardware**: Raspberry Pi, LEGO Mindstorms, Mbed OS
+* **Soft Skills**: Teamwork, Communication, Release Management, Time Management, Problem Solving
 
 ## Experience
 
 ### Marketplace Coordinator - Ziax & CubeCraft Games (2019 - 2024)
 
-* Developed Minecraft Marketplace content and internal tooling with JavaScript, JSON, Python.
-* Managed projects with Notion and mentored new team members.
-* Using Git for version control with marketplace and server projects.
-* Teamwork and communication with other members of the team.
-* Using time management and problem solving skills to meet deadlines.
+* **Content Creation and Management**: Created and managed content for one of the largest Minecraft servers, which sees millions of players monthly. Developed over 30 commercial releases for this storefront.
+* **Team Efficiency and Tooling**: Enhanced team efficiency by developing internal tools, including a submission packaging software that significantly reduced administrative time.
+* **Client Support**: Provided exceptional support to clients, notably training and prompting the Feed the Beast team to publish content on the Minecraft Marketplace.
+* **Technical Proficiency**: Showcasing strong problem-solving skills and technical knowledge by utilizing Python to identify and automate processes.
+* **Project Management**: Managed projects using Notion and Git, ensuring timely delivery and version control. Demonstrated excellent teamwork and communication, often joining the gap between technical and non-technical staff.
+* **Accomplishments**: Supported educational content "Plants" that has achieved over 5 million downloads. Provided technical support for the publishing department, contributing to a total revenue exceeding $650,000.
 
 ### Volunteer Student Ambassador - Technocamps (2019 - 2023)
 
-* Created Computer Science teaching materials.
-* Mentored and inspired younger pupils to foster interest in computer science. [Case Study.](https://www.technocamps.com/en/2020/09/11/ben-dodd/)
+* **Mentorship and Training**: Created and delivered Computer Science teaching materials. Mentored and inspired younger pupils, fostering interest in computer science and robotics. Trained a group of younger members in programming and robotics competition participation.
+* **Inspiring Future Generations**: Engaged with students to demonstrate exciting opportunities by having an interest in computer science, drawing from personal experiences and achievements.
+* **[Case Study Highlight](https://www.technocamps.com/en/2020/09/11/ben-dodd/)**: My journey from starting in my school's robotics club to representing my school in national and international competitions along with my continued involvement with Technocamps has allowed me to inspire the next generation of programmers and robotic enthusiasts.
 
 ## Education
 
 ### Swansea University - BSc Computer Science with Year in Industry (2019 - 2023)
 
-* First Class Honours. Dissertation on Interactive Socially Assistive Robot.
+* **First Class Honours**. Dissertation on Interactive Socially Assistive Robot.
 * Final year modules on Web Application Development, User Experience, Video Games Programming, Writing Mobile Applications, High Integrity Systems, Embedded System Design.
-* Year In Industry at CubeCraft Games (2021 - 2022)
+* **Year In Industry** at Ziax/CubeCraft Games (2021 - 2022)
 
 ## Projects
 
 ### University Projects
 
-* [Interactive Socially Assistive Robot](https://ben-dodd.com/projects/csp354project.html) Dissertation Project designing and programming a viable product - Python, OpenCV, Raspberry Pi, Emotion Recognition, Gesture Recognition, Unit Testing
-* [Forums Web Application](https://ben-dodd.com/projects/csc348project.html) Fundamentals in Web Application development - HTML, CSS, PHP, JavaScript, Laravel, MySQL, Git
-* [Frogger-style Video Game](https://ben-dodd.com/projects/csc384project.html) - Using core OOP principles. Unity, C#
-* [News Aggregator](https://ben-dodd.com/projects/csc306project.html) Mobile Application for reading news - Android Studio, Kotlin, Firebase Database, Firebase Authentication, API Integration
-* [Wind Turbine Safety High Integrity System](https://ben-dodd.com/projects/csc313project.html) - Spark Ada
+* [**Interactive Socially Assistive Robot**](https://ben-dodd.com/projects/csp354project.html) Dissertation Project designing and programming a viable product using Python, OpenCV, Raspberry Pi, Emotion Recognition, Gesture Recognition, Unit Testing
+* [**Forums Web Application**](https://ben-dodd.com/projects/csc348project.html) Fundamentals in Web Application development using HTML, CSS, PHP, JavaScript, Laravel, MySQL, Git
+* [**Frogger-style Video Game**](https://ben-dodd.com/projects/csc384project.html) - Using core OOP principles to develop a game in Unity with C#.
+* [**News Aggregator**](https://ben-dodd.com/projects/csc306project.html) Mobile Application for reading news designed with Android Studio, Kotlin, Firebase Database, Firebase Authentication, and API Integration.
+* [**Wind Turbine Safety High Integrity System**](https://ben-dodd.com/projects/csc313project.html) developed using Spark Ada.
 
 ### Technical Projects
 
-* [C++ Microcontroller Projects](https://ben-dodd.com/projects/cppfrdmk64f.html) - Using a FRDM-K64F microcontroller and various sensors. C++, Mbed OS.
-* [Traffic Light System](https://ben-dodd.com/projects/trafficimprovement.html) - Winning project of PA Consulting's Competition. Improving traffic signal timings to reduce waiting. Python, Raspberry Pi, Flask, Simulation
-* [Pi-Weather](https://ben-dodd.com/projects/piweather.html) - Weather forecast on E-Ink display. Using an API to retrieve data. Python, Raspberry Pi
-* [Flash Builder](https://ben-dodd.com/projects/flashbuilder.html) - Custom software for Technocamps robot. Developing UI and backend. Python, PyQt5, LEGO Mindstorms EV3
+* [**C++ Microcontroller Projects**](https://ben-dodd.com/projects/cppfrdmk64f.html) - Using a FRDM-K64F microcontroller and various sensors written in C++ with Mbed OS.
+* [**Traffic Light System**](https://ben-dodd.com/projects/trafficimprovement.html) - Winning project of PA Consulting's Competition. Improving traffic signal timings to reduce waiting. Developed with Python, Raspberry Pi, Flask, and Simulation libraries.
+* [**Pi-Weather**](https://ben-dodd.com/projects/piweather.html) - Weather forecast on E-Ink display. Using an API to retrieve data using Python and a Raspberry Pi Zero.
+* [**Flash Builder**](https://ben-dodd.com/projects/flashbuilder.html) - Custom software for Technocamps robot. Developing UI and backend with Python, PyQt5, to run on LEGO Mindstorms EV3.
 
 ## Achievements
 
