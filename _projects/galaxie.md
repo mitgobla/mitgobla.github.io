@@ -7,7 +7,7 @@ date: 2019-02-17
 tags: [python, web]
 youtube: yO1CWEORjPk
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/Galaxie
 ---

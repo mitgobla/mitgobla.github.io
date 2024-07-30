@@ -7,7 +7,7 @@ date: 2017-04-26
 tags: [python, 3dprint]
 youtube: fzEO07LA4Jw
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/Pet-Pal
 ---

@@ -6,7 +6,7 @@ image: /assets/images/projects/flashbuilder.png
 date: 2018-10-16
 tags: [python]
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/Flash-Builder
 ---

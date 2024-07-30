@@ -6,7 +6,7 @@ image: /assets/images/projects/groupquiz.png
 date: 2018-11-29
 tags: [web, js, python]
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/Edward-Upton/GroupQuiz
 ---

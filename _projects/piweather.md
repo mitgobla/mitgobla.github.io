@@ -6,7 +6,7 @@ image: /assets/images/projects/piweather.png
 date: 2018-11-18
 tags: [python, raspberrypi]
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/Pi-Weather
 ---

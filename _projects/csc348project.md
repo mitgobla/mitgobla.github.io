@@ -7,7 +7,7 @@ date: 2023-05-15
 tags: [web, laravel, php, javascript]
 youtube: A_I4aISbT0o
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/forums-app
 ---

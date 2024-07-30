@@ -6,7 +6,7 @@ image: /assets/images/projects/dissertation.png
 date: 2023-04-28
 tags: [python, 3dprint, raspberrypi]
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/CSP354-Project
 project_image_top: true

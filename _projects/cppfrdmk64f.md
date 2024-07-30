@@ -7,7 +7,7 @@ date: 2024-02-12
 tags: [cplusplus]
 youtube: g5ApOig-ik0
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/Mbed
 ---

@@ -7,7 +7,7 @@ date: 2018-01-31
 tags: [python]
 youtube: _1nt6SkSSqg
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/TopograPy
 ---

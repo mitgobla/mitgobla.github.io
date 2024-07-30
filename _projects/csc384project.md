@@ -7,7 +7,7 @@ date: 2023-05-12
 tags: [unity, c-sharp]
 youtube: MPpUj9tI8fU
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/VideoGameCoursework
 ---

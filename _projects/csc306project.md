@@ -7,7 +7,7 @@ date: 2023-01-09
 tags: [android, kotlin]
 youtube: KCaG5id5O8g
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/NewsAggregator
 ---

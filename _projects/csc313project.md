@@ -6,7 +6,7 @@ image: /assets/images/projects/csc313project.png
 date: 2022-12-07
 tags: [sparkada]
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/WindTurbine-CriticalSystem
 ---

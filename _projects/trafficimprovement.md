@@ -6,7 +6,7 @@ image: /assets/images/projects/trafficimprovement.png
 date: 2019-04-30
 tags: [raspberrypi, python]
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/Traffic-Improvement
 ---

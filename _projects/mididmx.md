@@ -6,7 +6,7 @@ image: /assets/images/projects/mididmx.png
 date: 2018-10-27
 tags: [python]
 links:
-    - title: Repository
+    - title: View GitHub Repository
       icon: bi-github
       url: https://github.com/mitgobla/MIDI-DMX
 ---
