@@ -1,12 +1,6 @@
 ---
 layout: default
 ---
-<div class="d-flex justify-content-between">
-    <!-- home button -->
-    <a href="/" class="text-secondary"><i class="bi bi-arrow-left"></i></a>
-    <!-- share button -->
-    <a href="#" id="shareButton" class="text-secondary" data-title="{{ page.title }}" data-description="{{ page.description }}"><i class="bi bi-share"></i></a>
-</div>
 <div class="card h-100">
     {% if page.youtube %}
         {% include youtube_player.html id=page.youtube %}
@@ -21,12 +15,17 @@ layout: default
         <h1>{{ page.title }}</h1>
     </div>
     <div class="card-body pb-0">
+        <div class="d-flex justify-content-between">
+            <!-- home button -->
+            <a href="/" class="text-secondary fs-3"><i class="bi bi-arrow-left"></i></a>
+            <!-- share button -->
+            <a href="#" id="shareButton" class="text-secondary fs-3" data-title="{{ page.title }}" data-description="{{ page.description }}"><i class="bi bi-share"></i></a>
+        </div>
         <span class="card-text text-muted">{{ page.date | date: "%B %-d, %Y" }}</span>
         <p class="card-text fs-5">{{ page.description }}</p>
     </div>
     {% assign links_size = page.links | size %}
     {% if links_size > 0 %}
-    <hr />
     <div class="card-body pb-0 pt-0">
         {% for link in page.links %}
         <a href="{{ link.url }}" class="btn btn-outline-primary" target="_blank">
