@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div id="experience" class="container-blur container-fluid text-center border rounded p-4 mt-4">
+    <h1>All my projects</h1>
+    <p>Click on a tag to see projects in that category.</p>
+    <hr />
+    <div class="row">
+        {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+        {% for project in sorted_projects %}
+        <div class="col-lg-4 pb-4">
+            {% include project_card.html project=project %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
