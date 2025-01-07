@@ -1,0 +1,16 @@
+pages:
+  - title: "Home"
+    url: "/"
+socials:
+  - title: "/mitgobla"
+    icon: github
+    url: "https://github.com/mitgobla/"
+  - title: "/mitgobla"
+    icon: linkedin
+    url: "https://uk.linkedin.com/in/mitgobla"
+  - title: "/mitgobla"
+    icon: instagram
+    url: "https://instagram.com/mitgobla"
+  - title: "ben-dodd@outlook.com"
+    icon: envelope-at
+    url: "mailto:ben-dodd@outlook.com"
