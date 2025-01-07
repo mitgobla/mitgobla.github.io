@@ -1,3 +1,8 @@
+- school: AiCore
+  icon: "https://cdn.prod.website-files.com/62cf31426220d61ad2c45936/62f11bc11ea8facc95b2fff7_aicore_favicon.png"
+  duration: August 2024 - October 2024
+  degree: Data and Cloud Engineering
+  description: Built a data pipeline to centralize and transform retail data from various sources, using Python, ETL, and SQL for enhanced data accessibility. Developed a data pipeline to analyze Pinterest user engagement, using AWS (RDS, S3), Databricks, and PySpark for ETL processing.
 - school: Swansea University
   degree: BSc Computer Science (with a year in industry)
   icon: "https://ik.imagekit.io/s1sp3stox/_web/img/favicon/www/favicon-32x32.png"
