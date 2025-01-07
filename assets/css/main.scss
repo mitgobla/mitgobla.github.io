@@ -19,6 +19,11 @@ body {
     font-family: var(--bs-body-font-family);
 }
 
+#navbarBrand {
+    align-items: center;
+    display: flex;
+}
+
 .container-blur {
     backdrop-filter: blur(10px);
     background-color: rgba(#f8f9fa, 0.7);
