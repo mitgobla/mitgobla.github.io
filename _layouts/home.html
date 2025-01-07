@@ -21,7 +21,7 @@ layout: default
             <div class="card-footer">
                 {% for link in site.data.nav.socials %}
                 <a class="btn btn-outline-primary" href="{{ link.url }}">
-                    <i class="bi bi-{{ link.icon }}"></i><p class="d-sm-none"> {{ link.title }}</p>
+                    <i class="bi bi-{{ link.icon }} fs-4"></i><p class="d-sm-none"> {{ link.title }}</p>
                 </a>
                 {% endfor %}
             </div>
@@ -38,7 +38,7 @@ layout: default
             </div>
             {% endfor -%}
         </div>
-        <a class="btn btn-primary" href="{{ " /projects" | relative_url }}" role="button">See all my projects</a>
+        <a class="btn btn-primary" href="{{ " /projects" | relative_url }}" role="button">See all of my projects</a>
     </div>
     <div class="container-blur container-fluid text-center border rounded p-4 mt-4">
         <div class="row">
