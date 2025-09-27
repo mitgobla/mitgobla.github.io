@@ -1,3 +1,4 @@
+---
 layout: project
 title: Arduino GPS Project
 description: Learning a geospatial stack, bringing in my love for microcontrollers and IoT
