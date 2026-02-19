@@ -8,7 +8,7 @@ tags: [python]
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/MIDI-DMX
+      url: https://github.com/ben-dodd-dev/MIDI-DMX
 ---
 ## Overview
 

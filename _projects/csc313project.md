@@ -8,7 +8,7 @@ tags: [sparkada]
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/WindTurbine-CriticalSystem
+      url: https://github.com/ben-dodd-dev/WindTurbine-CriticalSystem
 ---
 ## Overview
 

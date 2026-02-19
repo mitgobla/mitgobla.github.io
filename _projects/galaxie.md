@@ -9,7 +9,7 @@ youtube: yO1CWEORjPk
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/Galaxie
+      url: https://github.com/ben-dodd-dev/Galaxie
 ---
 ## Overview
 

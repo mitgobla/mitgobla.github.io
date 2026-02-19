@@ -8,7 +8,7 @@ tags: [python, 3dprint, raspberrypi]
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/CSP354-Project
+      url: https://github.com/ben-dodd-dev/CSP354-Project
 project_image_top: true
 ---
 

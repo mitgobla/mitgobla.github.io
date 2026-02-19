@@ -9,7 +9,7 @@ youtube: KCaG5id5O8g
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/NewsAggregator
+      url: https://github.com/ben-dodd-dev/NewsAggregator
 ---
 ## Overview
 

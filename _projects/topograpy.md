@@ -9,7 +9,7 @@ youtube: _1nt6SkSSqg
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/TopograPy
+      url: https://github.com/ben-dodd-dev/TopograPy
 ---
 ## Overview
 

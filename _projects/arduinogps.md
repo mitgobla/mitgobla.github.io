@@ -8,7 +8,7 @@ tags: [cplusplus, database, web]
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/Arduino-GPS-Project
+      url: https://github.com/ben-dodd-dev/Arduino-GPS-Project
 ---
 
 This project is an ESP32-based GPS and sensor tracking system that logs location and environmental data, then visualises it on a Flask webserver with an interactive Leaflet map.

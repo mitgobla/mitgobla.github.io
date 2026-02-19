@@ -9,7 +9,7 @@ youtube: fzEO07LA4Jw
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/Pet-Pal
+      url: https://github.com/ben-dodd-dev/Pet-Pal
 ---
 ## Overview
 

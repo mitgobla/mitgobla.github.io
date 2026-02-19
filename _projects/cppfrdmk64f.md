@@ -9,13 +9,13 @@ youtube: g5ApOig-ik0
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/Mbed
+      url: https://github.com/ben-dodd-dev/Mbed
 ---
 ## Overview
 
 My partner recently managed to get me a FRDM-K64F board, and I have been using it to learn more about microcontrollers and embedded systems. I have been using Mbed OS to write C++ code for various projects, and I have been learning a lot about the hardware and software aspects of microcontrollers.
 
-I've written up some of the projects I've been working on below. They are available on my [GitHub](https://github.com/mitgobla/Mbed) with the code and documentation.
+I've written up some of the projects I've been working on below. They are available on my [GitHub](https://github.com/ben-dodd-dev/Mbed) with the code and documentation.
 
 ## Projects
 
@@ -39,7 +39,7 @@ Of course the first thing I tried was a simple "hello world" program for the boa
 
 Next I tried to use an RGB LED, and I managed to make it change colour using PWM. Initially I was going to use a rotary encoder to change the colour, but it was far too unreliable, so I opted to just have it randomly change colours.
 
-[Project Code](https://github.com/mitgobla/Mbed/tree/main/mbed-os-rgb-led)
+[Project Code](https://github.com/ben-dodd-dev/Mbed/tree/main/mbed-os-rgb-led)
 
 ### Ultrasonic sensor
 
@@ -47,7 +47,7 @@ Next I tried to use an RGB LED, and I managed to make it change colour using PWM
 
 Using the ultrasonic sensor, I made a program that changes the colour of a RGB LED based on the distance of an object from the sensor. When my hand is close to the sensor, the LED turns red, and when it is far away, the LED turns green, with a linear gradient in between.
 
-[Project Code](https://github.com/mitgobla/Mbed/tree/main/mbed-os-ultrasonic)
+[Project Code](https://github.com/ben-dodd-dev/Mbed/tree/main/mbed-os-ultrasonic)
 
 ### Temperature and humidity sensor
 
@@ -57,7 +57,7 @@ My sensor kit came with a DHT22 temperature and humidity sensor. I made a progra
 
 I also added a buzzer to the board, and made it beep when the temperature goes above a certain threshold.
 
-[Project Code](https://github.com/mitgobla/Mbed/tree/main/mbed-os-dht22)
+[Project Code](https://github.com/ben-dodd-dev/Mbed/tree/main/mbed-os-dht22)
 
 ### Touchscreen drawing
 
@@ -67,7 +67,7 @@ I have a 2.8" touchscreen that I used with my Raspberry Pi, and I wanted to see 
 
 Due to the polling rate and the sensitivity of the touchscreen, it makes a dotting effect when drawing. I challenged myself to improve this, so I included a feature that draws a line between the previous and current position of the stylus. It also resets this when you lift the stylus off the screen, so that way when you start drawing again, it doesn't draw a line from the previous position to the new one.
 
-[Project Code](https://github.com/mitgobla/Mbed/tree/main/mbed-os-ili9341-touchscreen)
+[Project Code](https://github.com/ben-dodd-dev/Mbed/tree/main/mbed-os-ili9341-touchscreen)
 
 ### Joystick controlled drawing
 
@@ -77,7 +77,7 @@ The joystick shield I have is for an Arduino, but the great thing about the FRDM
 
 This project was a great opportunity for me to apply concepts of concurrency and object-oriented programming. The program is split into classes for the buttons, canvas, joystick, and touchscreen, which is brought together in the draw application class. Additionally, I created a button map class which binds buttons to functions in the drawing application, meaning that I can easily change the button bindings.
 
-[Project Code](https://github.com/mitgobla/Mbed/tree/main/mbed-os-drawing-app)
+[Project Code](https://github.com/ben-dodd-dev/Mbed/tree/main/mbed-os-drawing-app)
 
 ### Moisture Sensor & building a project box
 

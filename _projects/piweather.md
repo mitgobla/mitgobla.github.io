@@ -8,7 +8,7 @@ tags: [python, raspberrypi]
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/Pi-Weather
+      url: https://github.com/ben-dodd-dev/Pi-Weather
 ---
 ## Overview
 

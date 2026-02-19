@@ -8,7 +8,7 @@ tags: [raspberrypi, python]
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/Traffic-Improvement
+      url: https://github.com/ben-dodd-dev/Traffic-Improvement
 ---
 
 The Traffic Improvement project is a software solution aimed at reducing waiting times at traffic lights. It uses a Raspberry Pi to control traffic lights and a web interface for engineers to adjust traffic system variables. The software simulates traffic conditions, considering factors like human reaction time, distraction chance, weather effects, and traffic probability, to calculate the most efficient traffic light timings.

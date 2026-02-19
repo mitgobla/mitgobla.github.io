@@ -9,7 +9,7 @@ youtube: MPpUj9tI8fU
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/VideoGameCoursework
+      url: https://github.com/ben-dodd-dev/VideoGameCoursework
 ---
 ![Gameplay GIF](/assets/images/projects/csc384project/gameplay.gif)
 

@@ -8,10 +8,10 @@ tags: [python, database, cloud]
 links:
     - title: Data Centralisation Repo
       icon: bi-github
-      url: https://github.com/mitgobla/multinational-retail-data-centralisation874
+      url: https://github.com/ben-dodd-dev/multinational-retail-data-centralisation874
     - title: Pinterest Data Pipeline Repo
       icon: bi-github
-      url: https://github.com/mitgobla/pinterest-data-pipeline347
+      url: https://github.com/ben-dodd-dev/pinterest-data-pipeline347
     - title: Certification
       icon: bi-patch-check
       url: https://portal.theaicore.com/showcase/certificate/2/c6950d61-d2d8-4648-9692-092e3ace4007-0da02867-91fb-44b8-bb59-52ca8efaa60c
@@ -23,8 +23,8 @@ I'm pleased to have completed the Data and Cloud engineering course at AiCore. N
 
 On this course I worked on two projects:
 
-- **[Multinational Retail Data Centralization](https://github.com/mitgobla/multinational-retail-data-centralisation874)**: Built a data piepline to centralize and transform retail data from various sources. Using Extract, Transform, Load (ETL) with Python and PostgreSQL for enhanced data accessibility.
-- **[Pinterest Data Pipeline](https://github.com/mitgobla/pinterest-data-pipeline347)**: Developed a data pipeline similar to that used in Pinterest, analyzing user engagement data. Used AWS (RDS, S3, MSK, MWAA), Databricks, and PySpark for ETL processing. Performed real-time analytics, to support data-driven marketing strategies.
+- **[Multinational Retail Data Centralization](https://github.com/ben-dodd-dev/multinational-retail-data-centralisation874)**: Built a data piepline to centralize and transform retail data from various sources. Using Extract, Transform, Load (ETL) with Python and PostgreSQL for enhanced data accessibility.
+- **[Pinterest Data Pipeline](https://github.com/ben-dodd-dev/pinterest-data-pipeline347)**: Developed a data pipeline similar to that used in Pinterest, analyzing user engagement data. Used AWS (RDS, S3, MSK, MWAA), Databricks, and PySpark for ETL processing. Performed real-time analytics, to support data-driven marketing strategies.
 
 Both projects have an in-depth writeup on each of the repositories.
 

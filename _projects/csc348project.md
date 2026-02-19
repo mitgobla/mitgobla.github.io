@@ -9,7 +9,7 @@ youtube: A_I4aISbT0o
 links:
     - title: View GitHub Repository
       icon: bi-github
-      url: https://github.com/mitgobla/forums-app
+      url: https://github.com/ben-dodd-dev/forums-app
 ---
 
 ![Home Screen](/assets/images/projects/csc348project/home.png)
